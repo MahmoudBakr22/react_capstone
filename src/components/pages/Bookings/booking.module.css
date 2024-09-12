@@ -1,0 +1,18 @@
+.container h2 {
+  padding: 1.875rem 0 1.875rem 0;
+  background-color: #495e57;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container form {
+  margin: 0 auto 1.875rem auto;
+}
+
+.container button:disabled,
+.container button[disabled] {
+  background-color: #edefee;
+  border-color: #edefee;
+  color: #adafae;
+  cursor: not-allowed;
+}
